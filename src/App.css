@@ -67,12 +67,29 @@ nav {
 }
 
 .hero-img {
-  width: 180px;
-  height: 180px;
+  /* Positioning and Basic Sizing */
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-  border: 3px solid #fff;
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
-  object-fit: cover;
+  object-fit: cover; 
+  margin-top: 30px; 
+  border: 3px solid transparent; 
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 
+    0 4px 15px rgba(0, 0, 0, 0.4), /* Main shadow for depth */
+    0 0 0 3px rgba(255, 255, 255, 0.2); /* Outer glow (simulating the original border) */
+
+  /* 3. Smooth Hover Effect (Optional but enhances beauty) */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Optional: Add a hover effect for interactivity */
+.hero-img:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 
+    0 6px 20px rgba(0, 0, 0, 0.5),
+    0 0 10px 5px rgba(255, 255, 255, 0.3);
 }
 
 .hero h1 {
