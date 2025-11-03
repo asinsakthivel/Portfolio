@@ -68,11 +68,11 @@ nav {
 
 .hero-img {
   /* Positioning and Basic Sizing */
-  width: 250px;
-  height: 250px;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   object-fit: cover; 
-  margin-top: 30px; 
+  margin-top: 60px; 
   border: 3px solid transparent; 
   background-origin: border-box;
   background-clip: content-box, border-box;
