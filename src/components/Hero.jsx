@@ -47,7 +47,7 @@ export default function Hero() {
 
           {/* 👇 This will open your resume in a new tab */}
           <motion.a
-            href="/fullstack_Asinsakthivel_resume.pdf"
+            href="/Asin_Sakthivel_Resume1.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline"
